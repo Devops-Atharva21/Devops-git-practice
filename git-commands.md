@@ -69,3 +69,9 @@ Purpose: Shows commit details
 
 Example:
 git show
+
+### git branch
+Purpose: Lists branches
+
+Example:
+git branch
