@@ -57,3 +57,9 @@ Purpose: Shows compact commit history
 
 Example:
 git log --oneline
+
+### git diff
+Purpose: Shows changes before staging
+
+Example:
+git diff
