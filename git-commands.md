@@ -63,3 +63,9 @@ Purpose: Shows changes before staging
 
 Example:
 git diff
+
+### git show
+Purpose: Shows commit details
+
+Example:
+git show
