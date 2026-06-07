@@ -42,3 +42,15 @@ git pull origin main
 Summary
 fetch = download only
 pull  = download + merge
+
+###When would you clone vs fork?
+
+---Clone
+Use when:
+Working on your own repository.
+You have direct access.
+
+--Fork
+Use when:
+Contributing to open-source projects.
+You don't have write access to the original repository.
