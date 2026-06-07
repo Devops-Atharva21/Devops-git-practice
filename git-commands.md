@@ -75,3 +75,15 @@ Purpose: Lists branches
 
 Example:
 git branch
+
+###
+| Command                     | Purpose (One Line)                                                      |
+| --------------------------- | ----------------------------------------------------------------------- |
+| `git branch`                | Lists all branches in the repository and highlights the current branch. |
+| `git branch feature-1`      | Creates a new branch named `feature-1`.                                 |
+| `git switch feature-1`      | Switches to the existing `feature-1` branch.                            |
+| `git checkout feature-1`    | Switches to the `feature-1` branch (older method).                      |
+| `git checkout -b feature-2` | Creates a new branch `feature-2` and switches to it in one command.     |
+| `git switch -c feature-2`   | Creates a new branch `feature-2` and switches to it (modern method).    |
+| `git branch -d feature-2`   | Deletes the `feature-2` branch if it has already been merged.           |
+
