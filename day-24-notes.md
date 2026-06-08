@@ -54,3 +54,26 @@ Local feature branches
 Preserve complete history
 Shared branches
 Team collaboration
+
+***What Does Squash Merge Do?
+
+Combines multiple commits into a single commit before merging.
+
+***When Would You Use Squash Merge?
+Cleanup noisy commit history
+Small features
+Pull Requests
+
+***When Would You Use Regular Merge?
+Preserve development history
+Team collaboration
+Auditing changes
+Trade-Off of Squashing
+
+**Advantage
+
+Cleaner history.
+
+**Disadvantage
+
+Individual commit history is lost.
