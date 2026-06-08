@@ -1,2 +1,8 @@
 Settings
 Setting Tab
+<<<<<<< Updated upstream
+=======
+Setting Update to v.1
+New Changes
+>>>>>>> Stashed changes
+Change 1
