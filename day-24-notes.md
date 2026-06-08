@@ -17,3 +17,40 @@ Git creates a merge commit when both branches contain unique commits and histori
 ***What is a Merge Conflict?
 
 A merge conflict occurs when Git cannot automatically decide which change to keep, usually when the same line is modified in multiple branches.
+
+***What Does Rebase Actually Do?
+
+Rebase takes your branch commits and replays them on top of another branch.
+
+**How Is History Different From Merge?
+
+Merge
+A---B---C
+     \   \
+      D---E
+
+Creates:
+
+A---B---C-----M
+     \     /
+      D---E
+Rebase
+A---B---C---D'---E'
+
+Linear history.
+
+***Why Never Rebase Shared Commits?
+
+Rebase rewrites commit history. If others already pulled those commits, rebasing creates different commit IDs and causes confusion.
+
+***When To Use Rebase vs Merge?
+
+*** Rebase
+Clean history
+Before creating PR
+Local feature branches
+
+***Merge
+Preserve complete history
+Shared branches
+Team collaboration
