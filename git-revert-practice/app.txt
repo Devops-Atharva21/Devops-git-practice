@@ -1,3 +1,6 @@
 Feature X
+<<<<<<< HEAD
 Feature Y
 Feature Z
+=======
+>>>>>>> parent of fd64639 (Commit Y)
